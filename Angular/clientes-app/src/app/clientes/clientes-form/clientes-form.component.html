@@ -1,0 +1,82 @@
+<h1 class="mt-4">Clientes</h1>
+<ol class="breadcrumb mb-4">
+    <!-- caso existir no DB, mostra Edição, senão Cadastro -->
+    <li class="breadcrumb-item active">{{cliente.codigoCliente ? 'Edição' : 'Cadastro'}}</li>
+</ol>
+<div class="container">
+    <!-- #AULA58 - ngSubmit = click no button -->
+    <form #clienteForm="ngForm" (ngSubmit)="onSubmit()">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- a variavel salvarCliente está no clientes-form.component.ts  -->
+                <div class="alert alert-success" role="alert" *ngIf="salvarCliente == true">
+                   <b>Cliente salvo com sucesso!</b>
+                </div>
+                <!-- a variavel atualizarCliente está no clientes-form.component.ts  -->
+                <div class="alert alert-success" role="alert" *ngIf="atualizarCliente == true">
+                    <b>Cliente atualizado com sucesso!</b>
+                </div>
+                <!-- a variavel errors está no clientes-form.component.ts  -->
+                <div class="alert alert-danger" role="alert" *ngFor="let erro of errors" >
+                    <b>{{ erro }}</b>
+                </div>
+            </div>            
+        </div>
+
+        <!-- #AULA65 - Só vai aparecer os campos codigo e data, quando tiver gravado no DB, as informações completas -->
+        <div class="row" *ngIf="cliente.codigoCliente">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="">Código:</label>
+                    <input type="text" class="form-control" name="codigoCliente"
+                        [ngModel]="cliente.codigoCliente" disabled="true">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="">Data Cadastro:</label>
+                    <input type="text" class="form-control" name="dataCadastro"
+                        [ngModel]="cliente.dataCadastro" disabled="true">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="">Nome: *</label>
+                    <input type="text" class="form-control"
+                        [(ngModel)]="cliente.nome" name="nome">
+                </div>
+            </div> 
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="">CPF: *</label>
+                    <input type="text" class="form-control"
+                        [(ngModel)]="cliente.cpf" name="cpf">
+                </div>
+            </div> 
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <!-- #AULA70 - Se não existe no DB, vai aparecer o botão salvar -->
+                <button type="submit" class="btn btn-success"
+                    *ngIf="!cliente.codigoCliente">
+                    <i class="fa fa-save"></i> Salvar
+                </button>
+                <!-- #AULA70 - Se existe no DB, vai aparecer o botão Atualizar -->
+                <button type="submit" class="btn btn-primary"
+                    *ngIf="cliente.codigoCliente">
+                    <i class="fas fa-sync-alt"></i> Atualizar
+                </button>
+                
+                <!-- #AULA68 ml-1 > espaço para direita -->
+                <button type="button" class="btn btn-info ml-2" (click)="listarClientes()">
+                    <i class="fa fa-list-alt"></i> Consulta de Clientes
+                </button>                  
+            </div>
+        </div>
+        <br>
+    </form>
+</div>

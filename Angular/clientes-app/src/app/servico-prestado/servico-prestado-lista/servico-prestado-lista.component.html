@@ -1,0 +1,90 @@
+<h1 class="mt-4">Serviço Prestado</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrum-bitem active">Consulta</li>
+</ol>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <!-- ********* somente para botão ou link ********** 
+                (click)="novoServico()" ou routerLink="/servico-prestado-form", os dois podem funcionar da mesma forma -->
+            <button class="btn btn-warning" 
+                    routerLink="/servicos-prestados/form">
+                <i class="fa fa-plus"></i> Novo Serviço
+            </button>
+        </div>
+    </div>
+
+    <br/>
+    <form #consultaForm="ngForm" (submit)="consultarClientes()">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="inputCliente">Cliente:</label>
+                <input type="text" [(ngModel)]="nomeCliente" 
+                       name="nome" class="form-control"
+                       id="inputCliente">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputMes">Mês:</label>
+                <select [(ngModel)]="mes" class="form-control" name="mes">
+                    <option value="-1">Selecione...</option>
+                    <option *ngFor="let mes of meses" [value]="mes">
+                        {{ mes }}
+                    </option>
+                </select>
+            </div>
+        </div>
+
+        <br/>
+
+        <div class="row">
+            <div class="col-md-3">
+                <!-- button Procurar está ligado com (submit)="consultarClientes()" -->
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-search"></i> Procurar
+                </button>
+
+                <button type="button" class="btn btn-info ml-2" 
+                data-bs-toggle="tooltip" data-bs-placement="top" title="Mostrar todos os serviços prestados"
+                (click)="listarAll()">
+                    <i class="fa fa-list-alt"></i> Todos
+                </button>
+            </div>
+        </div>
+    </form>
+    
+    <br/>
+    <div class="row">
+        <!-- a variavel message está no servico-prestado-lista.component.ts  -->
+        <div class="alert alert-warning" role="alert" *ngIf="message">
+            <b>{{ message }}</b>
+        </div>
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let s of listaServico">
+                        <td> {{ s.cliente.nome }}</td>
+                        <td> {{ s.descricao }}</td>
+                        <td> {{ s.valor }}</td>
+                        <td> {{ s.dataServico }}</td>
+                        <td>
+                            <button class="btn btn-primary"
+                                routerLink="/clientes/form/{{ s.cliente.codigoCliente }}" data-toggle="tooltip" data-placement="top" title="Informação do cliente"> <i class="fas fa-address-book"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>

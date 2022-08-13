@@ -1,0 +1,86 @@
+<h1 class="mt-4">Serviço Prestado</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrum-bitem active">Novo</li>
+</ol>
+<div class="container">
+    <form #form="ngForm" (submit)="onSubmit()">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- a variavel success está no servico-prestado-form.component.ts  -->
+                <div class="alert alert-success" role="alert" *ngIf="salvarPrestacaoServico == true">
+                   <b>Serviço Prestado salvo com sucesso!</b>
+                </div>
+                <!-- a variavel errors está no clientes-form.component.ts  -->
+                <div class="alert alert-danger" role="alert" *ngFor="let erro of errors" >
+                    <b>{{ erro }}</b>
+                </div>
+            </div>            
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Cliente: </label>
+                    <select class="form-control"
+                            [ngModelOptions]="{standalone: true}"
+                            [(ngModel)]="servico.codigoCliente"> 
+                        <option value="">Selecione...</option>
+                        <option *ngFor="let cliente of clientes" 
+                                [ngValue]="cliente.codigoCliente">
+                            {{ cliente.nome }}
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Descrição: </label>
+                    <!-- form-control é para deixar padrão do bootstrap -->
+                    <input class="form-control" 
+                        [(ngModel)]="servico.descricao"
+                        type="text" name="descricao" 
+                        id="inputDescricao">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Data: </label>
+                    <!-- form-control é para deixar padrão do bootstrap -->
+                    <input class="form-control" 
+                        [(ngModel)]="servico.dataServico"
+                        type="text" name="DataServico" 
+                        id="inputDataServico">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Preço: </label>
+                    <!-- form-control é para deixar padrão do bootstrap -->
+                    <input class="form-control" 
+                        [(ngModel)]="servico.preco"
+                        type="text" name="preco" 
+                        id="inputPreco">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-5">
+                <button class="btn btn-success" type="submit">
+                    <i class="fa fa-save"></i> Salvar
+                </button>
+
+                <button type="button" class="btn btn-info ml-2" routerLink="/servicos-prestados/lista">
+                    <i class="fa fa-list-alt"></i> Consulta de Serviços Prestados
+                </button>
+
+            </div>
+        </div>
+        <br>
+    </form>
+</div>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c090a8a-b56e-4b1e-8ee4-50672672edf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes/cliente.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes/clientes-form/clientes-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes/clientes-form/clientes-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes/clientes-form/clientes-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes/clientes-lista/clientes-lista.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes/clientes-lista/clientes-lista.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes/clientes-lista/clientes-lista.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes/clientes-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/clientes/clientes.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/home/home.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/layout/layout.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/layout/layout.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/layout/layout.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/login/usuario.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servico-prestado-form/servico-prestado-form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servico-prestado-form/servico-prestado-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servico-prestado-form/servico-prestado-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servico-prestado-lista/servico-prestado-lista.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servico-prestado-lista/servico-prestado-lista.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servico-prestado-lista/servico-prestado-lista.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servico-prestado-lista/servicoPrestadoBusca.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servico-prestado-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servico-prestado.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/servico-prestado/servicoPrestado.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/template/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/template/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/template/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/template/sidebar/sidebar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/template/sidebar/sidebar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/template/sidebar/sidebar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/template/template.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/app/token.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Angular/clientes-app/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/.idea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.idea/clientes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/ClientesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/config/InternacionalizacaoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/exception/UsuarioCadastradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/model/enity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/model/enity/ServicoPrestado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/model/enity/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/model/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/model/repository/ServicoPrestadoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/model/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/rest/ApplicationControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/rest/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/rest/ServicoPrestadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/rest/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/rest/dto/ServicoPrestadoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/rest/exception/ApiErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/service/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/java/com/example/juniorm/clientes/util/BigDecimalConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clientes/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/src/main/java/io/example/juniorm/Development.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/src/main/java/io/example/juniorm/MyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/src/main/java/io/example/juniorm/VApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/src/main/java/io/example/juniorm/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/src/main/java/io/example/juniorm/repository/ClientesRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/src/main/java/io/example/juniorm/service/ClientesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/src/main/resources/application-development.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/src/main/resources/application-production.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendas/vendas.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1mW5cRmDIKo7u4pYSiJYeCPZOjM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/respository/GitHub/angular_springboot/Spring Boot"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c090a8a-b56e-4b1e-8ee4-50672672edf3" name="Default Changelist" comment="" />
+      <created>1609868121684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609868121684</updated>
+    </task>
+    <servers />
+  </component>
+</project>
